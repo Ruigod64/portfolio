@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Rui Orona | Ingeniero Biomédico & Software Developer</title>
+    <meta name="description" content="Portfolio profesional de Rui Orona - Desarrollo Frontend, Backend, DevOps y bases de datos.">
+    <meta name="keywords" content="portfolio, desarrollador, frontend, backend, devops, ingeniero biomedico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            padding: 120px 0;
+        }
+
+        .hero span {
+            color: #00d4ff;
+        }
+
+        .skill-card {
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .navbar {
+            backdrop-filter: blur(10px);
+        }
+
+        .social-icon {
+            font-size: 18px;
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+        .social-icon:hover {
+        color: #00d4ff }
+
+        footer {
+            background: #111;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Rui Orona</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#competencias">Competencias</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center">
+    <div class="container">
+        <h1 class="fw-bold">
+            Hola, soy <span>Rui</span>
+        </h1>
+        <p class="lead mt-3">
+            Ingeniero Biomédico | Software Developer
+        </p>
+        <button onclick="scrollToSection()" class="btn btn-light btn-lg mt-4">
+            Ver más
+        </button>
+    </div>
+</section>
+
+<!-- SOBRE MI -->
+<section id="about">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Sobre mí</h2>
+        <p class="text-center col-md-8 mx-auto">
+            Soy estudiante de Ingeniería Biomédica con enfoque en desarrollo de software,
+            control de versiones con Git y creación de soluciones tecnológicas.
+            Mi objetivo es especializarme en Machine Learning aplicado a la ingeniería biomédica.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Skills Técnicas</h2>
+
+        <div class="row g-4">
+
+            <!-- FRONTEND -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card skill-card p-4 h-100">
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- BACKEND -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card skill-card p-4 h-100">
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Python</li>
+                        <li>FastAPI</li>
+                        <li>SQLAlchemy</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- DATABASES -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card skill-card p-4 h-100">
+                    <h5>Databases</h5>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- DEVOPS -->
+            <div class="col-md-6 col-lg-6">
+                <div class="card skill-card p-4 h-100">
+                    <h5>DevOps & Tools</h5>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Linux (Mint XFCE)</li>
+                        <li>Docker (básico)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- LENGUAJES -->
+            <div class="col-md-6 col-lg-6">
+                <div class="card skill-card p-4 h-100">
+                    <h5>Lenguajes</h5>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>C++ (básico)</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- COMPETENCIAS -->
+<section id="competencias">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Competencias</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h6>Resolución de problemas</h6>
+                <p>Capacidad analítica para desarrollar soluciones eficientes.</p>
+            </div>
+            <div class="col-md-4">
+                <h6>Trabajo en equipo</h6>
+                <p>Colaboración en proyectos técnicos multidisciplinarios.</p>
+            </div>
+            <div class="col-md-4">
+                <h6>Aprendizaje continuo</h6>
+                <p>Enfoque constante en mejora y actualización tecnológica.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="bg-dark text-white text-center">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Contacto</h2>
+
+        <p>Email: ruigod64@gmail.com</p>
+
+        <div class="mt-4">
+
+    <a href="https://github.com/Ruigod64"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-icon">
+        <i class="bi bi-github"></i> GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/rui-orona-186b1a335/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-icon">
+        <i class="bi bi-linkedin"></i> LinkedIn
+    </a>
+
+    <a href="https://www.facebook.com/rui.oronadiaz/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-icon">
+        <i class="bi bi-facebook"></i> Facebook
+    </a>
+
+</div>
+
+        <p class="small mt-4">© 2026 Rui Orona</p>
+    </div>
+</section>
+
+<!-- JS -->
+<script>
+    function scrollToSection() {
+        document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
