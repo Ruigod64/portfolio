@@ -1,16 +1,76 @@
-# React + Vite
+# Rui Orona — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Biomedical Engineer & Software Developer • Available for remote work
 
-Currently, two official plugins are available:
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-00d4ff?style=flat-square)](https://github.com/Ruigod64)
+[![GitHub](https://img.shields.io/badge/GitHub-Ruigod64-181717?style=flat-square&logo=github)](https://github.com/Ruigod64)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rui_Orona-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/rui-orona-186b1a335/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 👤 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I'm a **Biomedical Engineering student** focused on software development. I combine knowledge of medical systems with modern technology to build tools that solve real problems.
 
-## Expanding the ESLint configuration
+My goal is to specialize in **software for medical devices**, working remotely on clean, well-engineered, and maintainable solutions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML5, CSS3, JavaScript
+- Bootstrap, React
+
+### Backend
+- Python, FastAPI, SQLAlchemy
+- REST APIs
+
+### Databases
+- MySQL, PostgreSQL, SQLite
+
+### DevOps & Tools
+- Git & GitHub
+- Linux (Mint XFCE)
+
+### Languages
+- Python · JavaScript · SQL · C (basic)
+
+---
+
+## 🚀 Projects
+
+### Portfolio Website
+Professional portfolio site built with HTML, CSS, Bootstrap and JavaScript. Responsive design with smooth scroll animations.
+
+`HTML5` `CSS3` `Bootstrap` `JavaScript`
+
+---
+
+### Biomedical API - Telemedicine
+REST API to Remote Monitoring Platform built with FastAPI for biomedical data processing, using SQLAlchemy ORM and PostgreSQL integration.
+
+`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `React` `CSS` `PostgreSQL` 
+
+---
+
+## 💼 Core Competencies
+
+- **Problem Solving** — Analytical thinking to develop efficient and scalable solutions
+- **Teamwork** — Collaboration on multidisciplinary technical projects
+- **Continuous Learning** — Constant focus on improvement and staying up to date with technology
+
+---
+
+## 📬 Contact
+
+| Channel | Link |
+|---------|------|
+| Email | ruigod64@gmail.com |
+| GitHub | [@Ruigod64](https://github.com/Ruigod64) |
+| LinkedIn | [Rui Orona](https://www.linkedin.com/in/rui-orona-186b1a335/) |
+| WhatsApp | [Rui Orona](https://wa.me/526691506644) |
+
+---
+
+<p align="center">© 2026 Rui Orona · Made with ♥ from Mazatlán, Mexico</p>
