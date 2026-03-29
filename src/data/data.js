@@ -45,15 +45,15 @@ export const PROJECTS = [
     description:
       "Professional portfolio built with HTML, CSS, Bootstrap and JavaScript. Responsive design with smooth animations.",
     tags: ["HTML5", "CSS3", "Bootstrap", "JS"],
-    href: "#",
+    href: "https://github.com/Ruigod64/portfolio",
     number: "01",
   },
   {
-    title: "Biomedical API",
+    title: "Pizzaselconta Web",
     description:
-      "FastAPI-powered REST API for biomedical data processing with SQLAlchemy ORM and PostgreSQL integration.",
-    tags: ["Python", "FastAPI", "PostgreSQL"],
-    href: "#",
+      "Frontend web app for a local pizzeria. Built with HTML, CSS, Bootstrap and JavaScript. Responsive design with smooth animations.",
+    tags: ["HTML5", "CSS3", "Bootstrap", "JS"],
+    href: "https://pizzaselconta.com",
     number: "02",
   },
 ];

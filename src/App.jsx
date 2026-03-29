@@ -128,7 +128,7 @@ useEffect(() => {
               Rui<br />
               <span className="accent">Orona</span><span className="dim">.</span>
             </h1>
-            <p className="hero-sub">// Biomedical Engineer & Software Developer</p>
+            <p className="hero-sub">// Biomedical Engineer & Web Developer</p>
             <p className="hero-desc">
               Building technology at the intersection of biomedical engineering and software.
               Focused on clean architecture, meaningful tools, and remote collaboration.
@@ -256,7 +256,7 @@ useEffect(() => {
                     ))}
                   </div>
                 </div>
-                <a href={project.href} className="project-link">
+                <a href={project.href} target="_blank" rel="noopener noreferrer" className="project-link">
                   View <span className="project-link-arrow">↗</span>
                 </a>
               </div>
